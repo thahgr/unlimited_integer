@@ -1,0 +1,20 @@
+Unlimited positive integer class.
+
+This project is my approach to the approach of an assessment. 
+The outline of the exercise is shown below.
+
+The goal of this project is to implement a class which holds a very large number, large enough to compute the factorial 100! or 1000! which is the main requirement. Finally, the sum of digits for the specific number must be able to be calculated.
+
+For example, 10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 3628800, and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
+
+Operator "*" must be impemented, operator "+" is not necessary.
+
+Compile and run with: "g++ unlimitedInteger.cpp && ./a.out"
+(C++11 must be used)
+
+The files included are
+unlimitedInt.h		class declaration
+unlimitedInt.cpp	class,functions implementation
+unlimitedInteger.cpp	main() program used for testing
+
+
