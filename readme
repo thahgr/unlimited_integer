@@ -1,6 +1,6 @@
 Unlimited positive integer class.
 
-This project is my approach to the approach of an assessment. 
+This project is my approach to the approach of an assessment regarding a developer position in finance. While the assessment was successful, other candidates were chosen due to their closer affinity to finance.
 The outline of the exercise is shown below.
 
 The goal of this project is to implement a class which holds a very large number, large enough to compute the factorial 100! or 1000! which is the main requirement. Finally, the sum of digits for the specific number must be able to be calculated.
