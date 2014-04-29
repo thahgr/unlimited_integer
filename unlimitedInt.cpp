@@ -9,7 +9,7 @@ unlimitedInt::unlimitedInt(deque <unsigned short> a){
 }
 
 //class constructor, overloading the initiallization at 1
-unlimitedInt::unlimitedInt(unsigned short initializer /*= 1*/){	
+unlimitedInt::unlimitedInt(unsigned short initializer = 1){	
   
   dequeInt = intToDeque(initializer);
 }
@@ -77,7 +77,6 @@ deque <unsigned short> intToDeque(const short& a){
 //addittion function for deques return the sum. Use of scaled addittion elementary school style.
 deque<unsigned short> sumDeque(const deque <unsigned short> &a, const deque <unsigned short> &b){ 
   
-  int i = 0, j = 0;	
   int k = a.size();
   if( a.size() < b.size()){k = b.size();}
   
@@ -86,7 +85,7 @@ deque<unsigned short> sumDeque(const deque <unsigned short> &a, const deque <uns
   
   deque <unsigned short> returnDeque(k);	//
   
-  for ( i = b.size() - 1, j = a.size() - 1, k  = k - 1 ; i>=0 || j>= 0 ; i--, j--, k--){// use a separate counter for each one, k equals counter of the bigger. 
+  for (int i = b.size() - 1, int j = a.size() - 1, k  = k - 1 ; i>=0 || j>= 0 ; i--, j--, k--){// use a separate counter for each one, k equals counter of the bigger. 
     
     value = 0;
     value = value + decade;
