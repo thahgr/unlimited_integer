@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 #include <deque>
-#include <typeinfo>
 #include <assert.h>
 
 using namespace std;
